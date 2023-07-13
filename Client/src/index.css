@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .font-outline-1 {
+     text-shadow:
+   /* -1px -1px 0 white,   */
+    /* 1px -1px 0 white, */
+    -1px 1px 0 #DCDCDC,
+     1px 1px 0 white;
+  }
+  .font-outline-2 {
+    text-shadow:
+    -1px 1px 0 #00BFFF
+  }
+}
